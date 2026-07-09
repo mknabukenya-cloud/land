@@ -5,7 +5,173 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Mother's Symphony Music School</title>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+<style><!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mother's Symphony Music School</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
 <style>
+    {
+  margin: 02;
+  padding: 05;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background:brown;
+  color: white;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+nav a {
+  color: white;
+  text-decoration: underline;
+;
+}
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 300px;
+  text-align: center;
+  
+      background-image:
+    url("music.jpg");
+  padding: 300px;
+}
+.hero h1 {
+  font-size: 2.5rem;
+}
+
+.hero p {
+  margin: 15px 0;
+}
+
+.hero button {
+  padding: 10px 20px;
+  border: none;
+  background: #2e7d32;
+  color: white;
+  cursor: pointer;
+}
+
+/* FEATURES (Flexbox) */
+.features {
+  display: flex;
+  gap: 20px;
+  padding: 40px;
+  text-align: center;
+}
+
+.feature {
+  flex: 1;
+  padding: 20px;
+  background: brown;
+  color:#f4f4f4;
+}
+
+/* TESTIMONIALS (Grid) */
+.testimonials {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding: 40px;
+}
+
+.testimonial {
+  background: brown;
+  padding: 20px;
+  color: white;
+}
+
+/* FOOTER */
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background: #111;
+  color: white;
+}
+p{
+  font style: italic;
+}
+
+
+
+</style>
+</head>
+
+<body>
+
+<!-- NAVIGATION -->
+<nav>
+  <div><strong>MOTHERS SYMPHONY MUSIC SCHOOL</strong></div>
+  <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Services</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <h1 style="color:red">WELOME to Our School</h1>
+  <p><i>where every child finds their rhythm.</i></p>
+  <button>Register Now</button>
+</section>
+
+<!-- FEATURES -->
+<section class="features">
+  <div class="feature">
+    <h2>confidence building👩🏼‍🤝‍🧑🏻</h2>
+    <p>Mother’s Symphony Music School builds confidence by helping students express themselves through music, perform with courage, and grow in a supportive environment.</p>
+  </div>
+  <div class="feature">
+    <h2>Innovative🔨</h2>
+    <p>reative performance at Mother’s Symphony Music School is about expressing music with originality, emotion, and confidence. Students are encouraged to go beyond simply playing notes—to add their own style, interpretation, and stage presence, making every performance unique and engaging.</p>
+  </div>
+  <div class="feature">
+    <h2>support🤝</h2><div></div>
+    <p>Creative performance at Mother’s Symphony Music School is guided by supportive staff who help students express themselves confidently and perform with originality.</p>
+  </div>
+</section>
+
+
+<!-- TESTIMONIALS -->
+<section class="testimonials">
+  <div class="testimonial">
+    <p>Amazing service! Highly recommend.</p>
+    <h4>MIRIAM NABUKENYA</h4>
+    <small>CEO, Company</small>
+  </div>
+  <div class="testimonial">
+    <p>"Professional and reliable team."</p>
+    <h4>JOHN MARK</h4>
+    <small>Manager, Business</small>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>© 2026 Mother's Symphony Music School. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
+</style>
+</head>
     {
   margin: 02;
   padding: 05;
@@ -117,7 +283,7 @@ p{
     <li><a href="#">Contact</a></li>
   </ul>
 </nav>
-<img src="images/music.jpg />
+<img src="images/music.jpg" />
 <!-- HERO -->
 <section class="hero">
   <h1 style="color:red">WELOME to Our School</h1>
